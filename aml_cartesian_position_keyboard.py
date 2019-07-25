@@ -46,6 +46,7 @@ from aml_ctrl.controllers.os_controllers.config import ALL_CONFIGS
 
 def map_keyboard():
     # left = baxter_interface.Limb('left')
+    print "this"
     left = BaxterArm('left')
     right = BaxterArm('right')
 
